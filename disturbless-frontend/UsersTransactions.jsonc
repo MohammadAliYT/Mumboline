@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "userId",
+    "currentBalance": 105,
+    "transactions": [
+      {
+        "type": "CHARGE_BALANCE",
+        "amount": 5,
+        "dateUnix": 168651321,
+        "balanceAfterTransaction": 105
+      },
+      {
+        "type": "SEND_MESSAGE",
+        "amount": 0.01,
+        "dateUnix": 168651321,
+        "balanceAfterTransaction": 101.990
+      },
+      {
+        "type": "SEND_EMAIL",
+        "amount": 0.01,
+        "dateUnix": 168651321,
+        "balanceAfterTransaction": 101.990
+      },
+      {
+        "type": "SEND_VOICEMESSAGE",
+        "amount": 0.01,
+        "dateUnix": 168651321,
+        "balanceAfterTransaction": 101.990
+      }
+    ]
+  }
+]

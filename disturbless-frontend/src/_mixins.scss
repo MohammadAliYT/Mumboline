@@ -1,0 +1,28 @@
+@mixin grid-container($nbColumns: false, $nbRows: false, $gap: false) {
+    display: grid;
+    @if $nbRows {
+        grid-template-rows: repeat($nbRows, 1fr);
+    }
+    @if $nbColumns {
+        grid-template-columns: repeat($nbColumns, 1fr);
+    }
+    @if $gap {
+        gap: $gap;
+    }
+}
+
+@mixin grid-item($column-start: false, $column-end: false, $row-start: false, $row-end: false) {
+    @if $column-start {
+    grid-column-start: $column-start;
+    }
+    @if $column-end {
+    grid-column-end: $column-end;
+    }
+    @if $row-start {
+    grid-row-start: $row-start;
+    }
+    @if $row-end
+    {
+        grid-row-end: $row-end;
+    }
+}

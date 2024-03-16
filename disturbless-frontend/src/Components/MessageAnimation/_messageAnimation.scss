@@ -1,0 +1,28 @@
+@keyframes sendMessage {
+    0% {
+      left: -40%;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      left: 90%;
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      left: 90%;
+    }
+  }
+
+  .cardMissile {
+    position: absolute;
+    background-color: #F0F1F2;
+    margin-top: -12px;
+    left: -40%;
+    opacity: 0;
+    animation: sendMessage 3s infinite;
+    animation-timing-function: ease-in-out;
+    transform: rotate(45deg) !important;
+  }
+  

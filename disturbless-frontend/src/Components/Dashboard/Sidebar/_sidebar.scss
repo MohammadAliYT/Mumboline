@@ -1,0 +1,10 @@
+.sidebarFlexBasis {
+  flex-basis: 360px;
+}
+
+@media only screen and (max-width: 1023px) {
+  .sidebarFlexBasis {
+    flex-basis: 0;
+    overflow: hidden;
+  }
+}

@@ -1,0 +1,68 @@
+.view {
+    padding: 0 calc((1 / 12) * 100%);
+}
+
+.menu-icon {
+    cursor: pointer;
+    justify-self: end;
+    align-self: center;
+    padding: 28px 20px;
+    position: relative;
+    user-select: none;
+
+    background: linear-gradient(134.17deg, #EEF0F5 4.98%, #E6E9EF 94.88%);
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 10px 10px 20px rgba(166, 180, 200, 0.7);
+    border-radius: 40px;
+}
+
+.menu-icon .navicon {
+    background: #5685FF;
+    display: block;
+    height: 2px;
+    position: relative;
+    transition: background 0.2s ease-out;
+    width: 19px;
+}
+
+.menu-icon .navicon:before,
+.menu-icon .navicon:after {
+    background: #5685FF;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all 0.2s ease-out;
+    width: 13px;
+}
+
+.menu-icon .navicon:before {
+    top: 3px;
+}
+
+.menu-icon .navicon:after {
+    top: -3px;
+}
+
+.menu-btn:checked ~ .menu-icon .navicon {
+    background: transparent;
+  }
+
+.menu-btn:checked ~ .menu-icon .navicon:before {
+    transform: rotate(-45deg);
+}
+  
+.menu-btn:checked ~ .menu-icon .navicon:after {
+    transform: rotate(45deg);
+}
+
+.menu-btn:checked ~ .menu-icon .navicon:before,
+.menu-btn:checked ~ .menu-icon .navicon:after {
+  top: 0;
+  width: 18px;
+}
+
+@media only screen and (max-width: 545px) {
+    .myDashboardBtn {
+        margin-top: 16px;
+    }
+}

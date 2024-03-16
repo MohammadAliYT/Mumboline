@@ -1,0 +1,38 @@
+[
+  {
+    disturblessNumber: "1234567890",
+    contactNumber: "0987654321",
+    messages: [
+      {
+        direction: "in",
+        content: "Hello World",
+        when: new Date(),
+        nature: "SMS",
+      },
+      {
+        direction: "out",
+        content: "Hello World",
+        when: new Date(),
+        nature: "SMS",
+      },
+    ],
+  },
+  {
+    disturblessNumber: "0987654321",
+    contactNumber: "1234567890",
+    messages: [
+      {
+        direction: "in",
+        content: "Hello World",
+        when: new Date(),
+        nature: "SMS",
+      },
+      {
+        direction: "out",
+        content: "Hello World",
+        when: new Date(),
+        nature: "SMS",
+      },
+    ],
+  },
+];

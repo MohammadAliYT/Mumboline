@@ -1,0 +1,23 @@
+// Example of the messages collection
+
+{
+  "_id": "ourUserId",
+  "messaging": [
+    {
+      "disturblessNumber": "disturblessNumber",
+      "messages": [
+        {
+          "contact": "contactedNumber",
+          "contactedNumberMessages": [
+            {
+              "direction": "in",
+              "content": "msg",
+              "when": 1681654543,
+              "type": "sms|voice"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

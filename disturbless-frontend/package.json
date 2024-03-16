@@ -1,0 +1,93 @@
+{
+  "name": "disturbless-frontend",
+  "proxy": "http://localhost:4000",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.2",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@headlessui/react": "^1.4.0",
+    "@heroicons/react": "^1.0.3",
+    "@iconify-icons/akar-icons": "^1.1.17",
+    "@iconify-icons/ant-design": "^1.1.0",
+    "@iconify-icons/clarity": "^1.1.1",
+    "@iconify-icons/fa-brands": "^1.1.0",
+    "@iconify/icons-akar-icons": "^1.1.18",
+    "@iconify/icons-ant-design": "^1.1.0",
+    "@iconify/icons-bx": "^1.1.2",
+    "@iconify/icons-carbon": "^1.1.5",
+    "@iconify/icons-cib": "^1.1.0",
+    "@iconify/icons-grommet-icons": "^1.1.3",
+    "@iconify/icons-iconoir": "^1.2.28",
+    "@material-ui/core": "^4.12.3",
+    "@mui/material": "^5.0.4",
+    "@paypal/react-paypal-js": "^7.5.0",
+    "@tanem/react-nprogress": "^3.0.73",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "akar-icons": "^1.7.11",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^0.21.1",
+    "grommet-icons": "^4.6.0",
+    "grommet-styles": "^0.2.0",
+    "imagemin": "^8.0.1",
+    "imagemin-webp": "^6.0.0",
+    "moment": "^2.29.1",
+    "node-sass": "^6.0.1",
+    "react": "^17.0.2",
+    "react-collapse": "^5.1.0",
+    "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.4.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-transition-group": "^4.4.2",
+    "redux": "^4.1.0",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject",
+    "prettify": "prettier --write \"**/*.js\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@iconify-icons/bi": "^1.1.5",
+    "@iconify-icons/bx": "^1.1.1",
+    "@iconify-icons/carbon": "^1.1.5",
+    "@iconify-icons/codicon": "^1.1.18",
+    "@iconify-icons/eva": "^1.1.0",
+    "@iconify-icons/ic": "^1.1.7",
+    "@iconify-icons/jam": "^1.1.0",
+    "@iconify/icons-fa-brands": "^1.1.1",
+    "@iconify/icons-uil": "^1.2.3",
+    "@iconify/react": "^1.1.4",
+    "autoprefixer": "^9.8.6",
+    "eslint": "^7.30.0",
+    "eslint-plugin-react": "^7.24.0",
+    "postcss": "^7.0.35",
+    "prettier": "^2.3.2",
+    "prop-types": "^15.7.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.2"
+  }
+}

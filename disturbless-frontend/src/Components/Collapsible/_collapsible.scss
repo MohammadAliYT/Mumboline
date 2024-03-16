@@ -1,0 +1,35 @@
+.collapse {
+  overflow: hidden;
+  transition: 0.4s max-height;
+}
+
+.config {
+  padding-bottom: 20px;
+}
+
+.label {
+  padding-right: 20px;
+}
+
+.input {
+  margin-right: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.blob {
+  max-width: calc(100% / 3);
+}
+
+#title:hover {
+  cursor: pointer
+}
+
+.ReactCollapse--collapse {
+  // max-width: 800px;
+  // border: 1px solid rgba(3, 169, 244, 0.3);
+  // border-radius: 10px;
+  // background-color: rgba(100, 255, 100, 0.1);
+  // transition: height 500ms;
+  transition: height 500ms;
+}

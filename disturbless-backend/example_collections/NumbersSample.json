@@ -1,0 +1,54 @@
+[
+  {
+    "_id": { "$oid": "612f4e3b2a56460f1608c2eb" },
+    "numbers": [
+      {
+        "number": "+15124563549",
+        "provider": "TWILIO",
+        "costData": {
+          "inboundSmsPrice": { "$numberDouble": "0.0075" },
+          "outboundSmsPrice": { "$numberDouble": "0.0075" }
+        },
+        "country": "United States",
+        "label": "Registrations",
+        "billingId": "savedCardIdHere",
+        "isActive": true,
+        "autoRenew": false,
+        "expires": { "$date": { "$numberLong": "1640986568640" } },
+        "firstPurchased": { "$date": { "$numberLong": "1632191040" } },
+        "settings": {
+          "forwarding": {
+            "toEmail": true,
+            "toPrimaryPhone": true,
+            "voiceMailGreeting": "Hello, please leave a message!"
+          }
+        },
+        "_id": { "$oid": "619a856a442de921037c64d2" }
+      },
+      {
+        "number": "(555) 555-1235",
+        "provider": "Brini",
+        "costData": {
+          "inboundSmsPrice": { "$numberDouble": "0.0075" },
+          "outboundSmsPrice": { "$numberDouble": "0.0075" }
+        },
+        "country": "Lipsum Country",
+        "label": "Registrations",
+        "billingId": "savedCardIdHere",
+        "isActive": true,
+        "autoRenew": true,
+        "expires": { "$date": { "$numberLong": "1737322568640" } },
+        "firstPurchased": { "$date": { "$numberLong": "1632191040" } },
+        "settings": {
+          "forwarding": {
+            "toEmail": false,
+            "toPrimaryPhone": false,
+            "voiceMailGreeting": "Hello, please leave a message!"
+          }
+        },
+        "_id": { "$oid": "619a856a442de921037c64d3" }
+      }
+    ],
+    "__v": { "$numberInt": "0" }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "ourUserId",
+    "numbers": [
+      {
+        "number": "(555) 555-1234",
+        "country": "United States",
+        "label": "Registrations",
+        "billingId": "savedBillingMethodHere",
+        "isActive": "true|false",
+        "expires": "unix",
+        "firstPurchased": "Date",
+        "settings": {
+          "forwarding": {
+          "toEmail": false,
+          "toPrimaryPhone": true
+          }
+        }
+      }
+    ]
+  }
+]
+/*
+const numberSchema = mongoose.Schema({
+  number: String,
+  provider: String,
+  costData: {
+    smsPrice: Number,
+    voiceMessagePrice: Number
+  },
+  country: String,
+  label: String,
+  billingId: String,
+  isActive: Boolean,
+  expires: Date,
+  firstPurchased: Date,
+  settings: {
+    forwarding: {
+      toEmail: Boolean,
+      toPrimaryPhone: Boolean,
+    },
+  },
+});
+*/

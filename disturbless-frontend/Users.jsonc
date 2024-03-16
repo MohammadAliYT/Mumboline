@@ -1,0 +1,7 @@
+[
+  {
+    "_id": "userId",
+    "username": "bla@bla.com",
+    "password": "industry standard encrypted password or no password for social logins"
+  }
+]
